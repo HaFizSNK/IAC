@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5a5af3;
+  background: green;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #8080f6;
+  background: lawngreen;
   color: #fff;
 }
 
@@ -136,7 +136,7 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 15px;
-  color: #434175;
+  color: green;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -162,13 +162,15 @@ h6 {
   border-radius: 50px;
   color: greenyellow;
   border: 2px solid greenyellow;
+  background-color: green;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: black;
+  color:green;
   background: greenyellow;
 }
+
 
 .navbar .dropdown ul {
   display: block;
@@ -203,7 +205,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #5a5af3;
+  color: green;
 }
 
 .navbar .dropdown:hover>ul {
@@ -296,7 +298,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #434175;
+  color: green;
 }
 
 .navbar-mobile a:hover,
@@ -618,7 +620,7 @@ section {
 .why-us .box:hover span,
 .why-us .box:hover h4,
 .why-us .box:hover p {
-  color:greenyellow;
+  color:green;
 }
 
 /*--------------------------------------------------------------
@@ -672,6 +674,9 @@ section {
 --------------------------------------------------------------*/
 .services{
   background-color: greenyellow;
+}
+.services h2{
+  color: green;
 }
 .services .icon-box {
   text-align: center;
@@ -1352,6 +1357,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 700;
   margin: 10px 0;
 }
+.contact h2{
+  color: green;
+}
 
 .contact .info-box p {
   padding: 0;
@@ -1368,7 +1376,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 .contact .php-email-form .validate {
   display: none;
-  color: red;
+  color: green;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
@@ -1437,16 +1445,17 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #5a5af3;
+  background: green;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: greenyellow;
   transition: 0.4s;
   border-radius: 50px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #7272f5;
+  background: lawngreen;
+  color: green;
 }
 
 @keyframes animate-loading {
@@ -1464,7 +1473,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #f1f1f7;
+  background: black;
   min-height: 40px;
   margin-top: 68px;
 }
@@ -1472,7 +1481,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 400;
-  color: #434175;
+  color: green;
 }
 
 .breadcrumbs ol {
@@ -1516,15 +1525,17 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #444444;
+  color: green;
   font-size: 14px;
   background: #eeeef5;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  background-color: black;
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  background: black;
+
 }
 
 #footer .footer-top .footer-contact {
@@ -1537,7 +1548,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  color: #5a5af3;
+  color: green;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1551,7 +1562,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #434175;
+  color: green;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1568,7 +1579,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #5a5af3;
+  color: lawngreen;
   font-size: 18px;
   line-height: 1;
 }
@@ -1584,7 +1595,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: greenyellow;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1592,7 +1603,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #5a5af3;
+  color: lawngreen;
 }
 
 #footer .footer-newsletter {
@@ -1632,21 +1643,21 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #5a5af3;
-  color: #fff;
+  background: green;
+  color: lawngreen;
   transition: 0.3s;
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #7272f5;
+  background: greenyellow;
 }
 
 #footer .credits {
   padding-top: 5px;
   font-size: 13px;
-  color: #444444;
+  color: green;
 }
 
 #footer .credits a {
@@ -1657,7 +1668,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
   display: inline-block;
   background: #deddec;
-  color: #434175;
+  color: green;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1669,7 +1680,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #footer .social-links a:hover {
-  background: #5a5af3;
+  background: lawngreen;
   color: #fff;
   text-decoration: none;
 }
