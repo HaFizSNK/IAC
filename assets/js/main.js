@@ -1,5 +1,5 @@
 /**
-* Template Name: Resi
+* Template Name:IAC
 * Updated: Mar 10 2023 with Bootstrap v5.2.3
 * Template URL: https://bootstrapmade.com/resi-free-bootstrap-html-template/
 * Author: BootstrapMade.com
