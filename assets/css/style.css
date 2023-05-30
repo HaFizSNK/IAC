@@ -247,6 +247,7 @@ h6 {
   display: none;
   line-height: 0;
   transition: 0.5s;
+  background-color: #0c0ca8;
 }
 
 .mobile-nav-toggle.bi-x {
