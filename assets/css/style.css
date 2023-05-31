@@ -277,6 +277,7 @@ h6 {
 
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
+  color: #18d26e;
   top: 15px;
   right: 15px;
 }
