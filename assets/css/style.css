@@ -247,7 +247,7 @@ h6 {
   display: none;
   line-height: 0;
   transition: 0.5s;
-  background-color: #0c0ca8;
+  background-color: #f4f4fc;
 }
 
 .mobile-nav-toggle.bi-x {
@@ -260,7 +260,7 @@ h6 {
   }
 
   .navbar ul {
-    display: none;
+    display: block;
   }
 }
 
@@ -306,7 +306,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: black;
+  color: greenyellow;
 }
 
 .navbar-mobile .getstarted,
