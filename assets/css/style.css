@@ -241,17 +241,16 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: greenyellow;
+  color: #434175;
   font-size: 28px;
   cursor: pointer;
   display: none;
   line-height: 0;
   transition: 0.5s;
-  background-color: #f4f4fc;
 }
 
 .mobile-nav-toggle.bi-x {
-  color: greenyellow;
+  color: #fff;
 }
 
 @media (max-width: 991px) {
@@ -260,7 +259,7 @@ h6 {
   }
 
   .navbar ul {
-    display: block;
+    display: none;
   }
 }
 
@@ -277,7 +276,6 @@ h6 {
 
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
-  color: #18d26e;
   top: 15px;
   right: 15px;
 }
@@ -291,7 +289,7 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: yellowgreen;
+  background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -300,13 +298,13 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: green;
+  color: #434175;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: greenyellow;
+  color: #5a5af3;
 }
 
 .navbar-mobile .getstarted,
@@ -322,7 +320,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: greenyellow;
+  background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -341,12 +339,13 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: green;
+  color: #5a5af3;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
+
 
 /*--------------------------------------------------------------
 # Hero Section
